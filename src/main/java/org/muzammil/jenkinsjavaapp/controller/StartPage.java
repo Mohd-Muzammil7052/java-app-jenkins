@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class StartPage {
 
-    @GetMapping
+    @GetMapping("/")
     public String start(){
         return "Welcome to Jenkins Start Page...";
     }
